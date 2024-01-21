@@ -11,6 +11,7 @@
 		4615C79C2B5DB8AC002B04A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4615C79B2B5DB8AC002B04A9 /* ContentView.swift */; };
 		4615C79E2B5DB8AD002B04A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4615C79D2B5DB8AD002B04A9 /* Assets.xcassets */; };
 		4615C7A12B5DB8AD002B04A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4615C7A02B5DB8AD002B04A9 /* Preview Assets.xcassets */; };
+		4615C7A82B5DB903002B04A9 /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4615C7A72B5DB903002B04A9 /* StopWatch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4615C79B2B5DB8AC002B04A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4615C79D2B5DB8AD002B04A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4615C7A02B5DB8AD002B04A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4615C7A72B5DB903002B04A9 /* StopWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				4615C7992B5DB8AC002B04A9 /* StopWatchSample1App.swift */,
 				4615C79B2B5DB8AC002B04A9 /* ContentView.swift */,
+				4615C7A72B5DB903002B04A9 /* StopWatch.swift */,
 				4615C79D2B5DB8AD002B04A9 /* Assets.xcassets */,
 				4615C79F2B5DB8AD002B04A9 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4615C7A82B5DB903002B04A9 /* StopWatch.swift in Sources */,
 				4615C79C2B5DB8AC002B04A9 /* ContentView.swift in Sources */,
 				4615C79A2B5DB8AC002B04A9 /* StopWatchSample1App.swift in Sources */,
 			);
