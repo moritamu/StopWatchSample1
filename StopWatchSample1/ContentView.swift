@@ -8,14 +8,33 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var stopwatch = Stopwatch()
+    //    p.302から
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            HStack {
+                Button(action: {
+                    stopwatch.start()
+                }) {
+                    Image(systemName: "play")
+                }.padding()
+                Button(action: {
+                    stopwatch.stop()
+                }) {
+                    Image(systemName: "pause")
+                }.padding()
+                Button(action: {
+                    stopwatch.reset()
+                }) {
+                    Image(systemName: "backward.end")
+                }.padding()
+            }
+            .frame(width: 200)
+            .padding()
+            Text("\(stopwatch.counter)")
+                .font(.title)
         }
-        .padding()
+        
     }
 }
 
