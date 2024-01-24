@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @ObservedObject var stopwatch = Stopwatch()
-    //    p.302から
+    //    p.302から完成
     var body: some View {
         VStack {
             HStack {
